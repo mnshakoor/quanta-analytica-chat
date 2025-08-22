@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { ChatMessage, ChatRole, GroundingSource } from '../types';
-import { IconUser, IconGemini, IconSource } from './Icons';
+import { ChatMessage, ChatRole, GroundingSource } from '../types.ts';
+import { IconUser, IconGemini, IconSource } from './Icons.tsx';
 import { marked } from 'marked';
 
 interface ChatMessageProps {

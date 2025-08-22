@@ -1,7 +1,7 @@
 
 import React, { useRef, useEffect } from 'react';
-import { ChatMessage } from '../types';
-import ChatMessageItem from './ChatMessage';
+import { ChatMessage } from '../types.ts';
+import ChatMessageItem from './ChatMessage.tsx';
 
 interface MessageListProps {
   messages: ChatMessage[];

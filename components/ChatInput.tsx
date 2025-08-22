@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useCallback } from 'react';
-import { IconSend, IconPaperclip, IconGoogle, IconClose } from './Icons';
-import type { FileData } from '../types';
+import { IconSend, IconPaperclip, IconGoogle, IconClose } from './Icons.tsx';
+import type { FileData } from '../types.ts';
 
 interface ChatInputProps {
   onSendMessage: (message: string, file: FileData | null) => void;

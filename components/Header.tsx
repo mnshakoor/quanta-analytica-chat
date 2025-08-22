@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { IconGemini } from './Icons';
+import { IconGemini } from './Icons.tsx';
 
 const Header: React.FC = () => {
   return (
