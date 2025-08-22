@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { ChatMessage, ChatRole, GroundingSource, FileData } from './types';
-import { streamChat } from './services/geminiService';
-import Header from './components/Header';
-import MessageList from './components/MessageList';
-import ChatInput from './components/ChatInput';
-import { WELCOME_MESSAGE, GEMINI_MODEL } from './constants';
+import { ChatMessage, ChatRole, GroundingSource, FileData } from './types.ts';
+import { streamChat } from './services/geminiService.ts';
+import Header from './components/Header.tsx';
+import MessageList from './components/MessageList.tsx';
+import ChatInput from './components/ChatInput.tsx';
+import { WELCOME_MESSAGE, GEMINI_MODEL } from './constants.ts';
 
 const App: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
