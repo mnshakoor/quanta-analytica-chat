@@ -1,0 +1,5 @@
+{
+  "name": "Quanta Analytica Chat",
+  "description": "A sleek chat interface to interact with Google's Gemini API, featuring file uploads for context and integrated Google Search grounding.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,13 @@
+{
+  "name": "gemini-chat-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend proxy for Gemini Chat Interface",
+  "dependencies": {
+    "@google/genai": "^1.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
