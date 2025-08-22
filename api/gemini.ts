@@ -1,7 +1,7 @@
 // This file is a serverless function that acts as a secure proxy.
 // It's intended to be deployed in a server environment (e.g., Vercel, Netlify).
 import { GoogleGenAI, Content } from "@google/genai";
-import { ChatMessage, FileData, ChatRole, GroundingSource } from '../types';
+import { ChatMessage, FileData, ChatRole, GroundingSource } from '../types.ts';
 
 // Helper to build the conversation history in the format expected by the Gemini API
 function buildHistory(history: ChatMessage[]): Content[] {
