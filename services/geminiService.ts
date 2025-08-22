@@ -1,4 +1,4 @@
-import type { ChatMessage, FileData, GroundingSource } from '../types';
+import type { ChatMessage, FileData, GroundingSource } from '../types.ts';
 
 interface StreamChunk {
     text: string;
